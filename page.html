@@ -21,6 +21,10 @@
                 d.mousePressed(artemania);
                 createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1);
                 background(255);
+                
+                var boton = document.createElement("button");
+boton.type = "button";
+document.body.appendChild(boton);
             }
             function draw() {
                 if (mouseIsPressed) {
